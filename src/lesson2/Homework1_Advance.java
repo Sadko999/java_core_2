@@ -33,38 +33,17 @@ public class Homework1_Advance {
         //(первый массив - 1,2,5,7,10), (второй массив - 2,3,2,17,15),
         //(результат перемножения - (1*2), (2*3), (5*2), (7*17), (10*15)
 
-        int[] array1 = new int[]{1, 2, 5, 7, 10};
-        int[] array2 = new int[]{2, 3, 2, 17, 15};
-        int[] array3 = new int[15];
 
-        for (int x = 0; x < 5; ++x)
-            array3[x] = array1[x];
-
-        for (int x = 5; x < 10; ++x)
-            array3[x] = array2[x - 5];
-
-        for (int x = 10; x < 15; ++x)
-            array3[x] = array1[x - 10] * array2[x - 10];
-
-        for (int x : array3) {
-            System.out.print(x);
-            System.out.print(',');
-        }
-//--------------------------2й вариант----------------------------------------
         System.out.println();
 
         int[] otherArray1 = new int[]{1, 2, 5, 7, 10};
         int[] otherArray2 = new int[]{2, 3, 2, 17, 15};
-        int len = otherArray1.length * 3;
-        int[] otherArray3 = new int[len];
+        int[] otherArray3 = new int[15];
 
-        for (int x = 0; x < len; ++x) {
-            if (x < 5)
+        for (int x = 0; x < 5; ++x) {
                 otherArray3[x] = otherArray1[x];
-            else if (x >= 5 && x < 10 )
-                otherArray3[x] = otherArray2[x - 5];
-            else
-                otherArray3[x] = otherArray1[x - 10] * otherArray2[x - 10];
+                otherArray3[x + 5] = otherArray2[x];
+                otherArray3[x + 10] = otherArray1[x] * otherArray2[x];
         }
         for (int x : otherArray3) {
             System.out.print(x);
@@ -77,8 +56,7 @@ public class Homework1_Advance {
         System.out.println();
 
         String str = "Hello world!";
-        String newStr = str.replace("l", "r");
-        String newStr1 = newStr.toUpperCase();
-        System.out.println(newStr1.substring(0, 8));
+        System.out.println(str.replace("l", "r").toUpperCase().substring(0, 8));
+
     }
 }
