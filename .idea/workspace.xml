@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Сделано">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_core_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson1/Lesson1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson2/Lesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/Homework1_Advance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson2/Homework1_Advance.java" afterDir="false" />
+    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Испр. задача 3 и 4">
+      <change afterPath="$PROJECT_DIR$/src/lesson3/Lesson3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Homework1_Advance">
+  <component name="RunManager" selected="Application.Lesson3">
     <configuration name="Homework1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.Homework1" />
       <module name="java_core_2" />
@@ -69,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Lesson2" />
+    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson3.Lesson3" />
       <module name="java_core_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
+          <option name="PATTERN" value="lesson3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.Homework1_Advance" />
         <item itemvalue="Application.Test.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Homework1" />
-        <item itemvalue="Application.Lesson2" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657907578077</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Испр. задача 3 и 4">
+      <created>1657969181182</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657969181182</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +157,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделано" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделано" />
+    <MESSAGE value="Испр. задача 3 и 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Испр. задача 3 и 4" />
   </component>
 </project>
