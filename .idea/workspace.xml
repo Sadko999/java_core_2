@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Add Less.3">
+    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Add Less.4">
+      <change afterPath="$PROJECT_DIR$/src/lesson4/HomeworkTasks/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/HomeworkTasks/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson4/HomeworkTasks/HomeworkTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,13 +37,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.lesson4.HomeworkTasks">
     <configuration name="Homework1_Advance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson2.Homework1_Advance" />
       <module name="java_core_2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeworkTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.HomeworkTasks.HomeworkTasks" />
+      <module name="java_core_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson4.HomeworkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,25 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson2.Test" />
+    <configuration name="lesson4.Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson4.Lesson4" />
       <module name="java_core_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
-      <module name="java_core_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="lesson4.HomeworkTasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson4.HomeworkTasks" />
+        <item itemvalue="Application.lesson4.Lesson4" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.Homework1_Advance" />
-        <item itemvalue="Application.Test.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658171525422</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add Less.4">
+      <created>1658341867279</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658341867279</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +194,7 @@
     <MESSAGE value="Сделано" />
     <MESSAGE value="Испр. задача 3 и 4" />
     <MESSAGE value="Add Less.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Less.3" />
+    <MESSAGE value="Add Less.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Less.4" />
   </component>
 </project>
