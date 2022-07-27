@@ -1,5 +1,7 @@
 package lesson4.HomeworkTasks;
 
+import java.util.Arrays;
+
 public class HomeworkTasks {
     public static void main(String[] args) {
 
@@ -66,5 +68,33 @@ public class HomeworkTasks {
         System.out.println("Кошку зовут " + tabbyCat.getName());
         oldDog.setAge(17);
         System.out.println("Полкану " + oldDog.getAge() + " лет");
+
+        // Продвинутый уровень
+        // Задание №1: Написать цикл, который будет прибавлять число к result до тех пор,
+        // пока не получиться больше 1_000_000.
+        // Дано:
+        double increment = 0.012;
+        double result = 0;
+        // Вывести на экран, количество итераций, которое потребовалось, чтобы дойти до миллиона.
+        // Если число отрицательное, то сразу заканчиваем цикл, ничего не выводя.
+        // Внимание: число может измениться, и не должно приводить к изменению вашего кода.
+        long index = 0;
+        while (result < 1000000){
+            if (increment < 0.00002){
+                break;
+            }
+            result = result + increment;
+            ++index;
+        }
+        System.out.println("index = " + index);
+        System.out.println("result = " + result);
+
+        int[] myArr = new int[]{1, 1, 1, 1, 1, 1, 1};
+        for(int i = 0; i < myArr.length; ++i){
+            if (i % 2 == 0){
+              myArr[i] = 0;
+            }
+        }
+        System.out.println(Arrays.toString(myArr));
+        }
     }
-}
