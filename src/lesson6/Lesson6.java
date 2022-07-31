@@ -27,10 +27,10 @@ public class Lesson6 {
         FileReader fileReader = new FileReader(filename);
 
         // Чтение по символам
-        //        while (fileReader.ready()) {
-        //            char read = (char) fileReader.read();
-        //            //System.out.print(read);
-        //        };
+        while (fileReader.ready()) {
+            char read = (char) fileReader.read();
+            System.out.print(read);
+        };
 
         //Класс обертка, позволяющий читать кусками
         BufferedReader bufferedReader = new BufferedReader(fileReader);

@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Homework.Less.4">
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Lesson5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson5/Tigr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Eatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Lesson6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Лекции 5,6 + домашка №3">
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Financial_record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Homework3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Toyota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Zhiguli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/my_first_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/HomeworkTasks/HomeworkTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/HomeworkTasks/HomeworkTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson6/Lesson6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/Lesson6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,28 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.1874477&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "settings.editor.splitter.proportion": "0.1874477"
   }
-}</component>
-  <component name="RunManager" selected="Application.Lesson6">
-    <configuration name="HomeworkTasks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.HomeworkTasks.HomeworkTasks" />
-      <module name="java_core_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson4.HomeworkTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.lesson6.Homework_3.Homework3">
     <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson5.Lesson5" />
       <module name="java_core_2" />
@@ -88,19 +76,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="java_core_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test111" />
       <module name="java_core_2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson4.Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.Lesson4" />
+    <configuration name="lesson6.Homework_3.Homework3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson6.Homework_3.Homework3" />
       <module name="java_core_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.HomeworkTasks.*" />
+          <option name="PATTERN" value="lesson6.Homework_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson6.Homework_3.Homework3" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test111" />
         <item itemvalue="Application.Lesson6" />
         <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.HomeworkTasks" />
-        <item itemvalue="Application.lesson4.Lesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658429544825</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Лекции 5,6 + домашка №3">
+      <created>1658954460040</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658954460040</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +222,7 @@
     <MESSAGE value="Add Less.3" />
     <MESSAGE value="Add Less.4" />
     <MESSAGE value="Homework.Less.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework.Less.4" />
+    <MESSAGE value="Лекции 5,6 + домашка №3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Лекции 5,6 + домашка №3" />
   </component>
 </project>
