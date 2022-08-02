@@ -14,5 +14,6 @@ public class Lesson4 {
         System.out.println(petr.getName());
         System.out.println(vasiliy.getName());
 
+
     }
 }

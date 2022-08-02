@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Homework3 {
     public static void main(String[] args) throws IOException {
-        //--------------------------------- Задача №1-----------------------------------------------
+        /*/--------------------------------- Задача №1-----------------------------------------------
         Zhiguli vaz2101 = new Zhiguli();
         Toyota landCruiser = new Toyota();
 
@@ -28,6 +28,9 @@ public class Homework3 {
         FileWriter fileWriter1 = new FileWriter("D:\\repos\\java_core_2\\src\\lesson6\\Homework_3\\report.txt");
         fileWriter1.write("Доходы = " + financial_record1.getIncomes() +  ", " + "расходы = " + financial_record1.getOutcomes());
         fileWriter1.close();
+
+         */
+
     }
 
 }
