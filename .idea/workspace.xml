@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="домашка №3 Базовая">
-      <change afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Boat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Country2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Lesson7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson7/Soundable.java" afterDir="false" />
+    <list default="true" id="0da7ad08-a97e-42ee-8285-319fd4f7f0da" name="Changes" comment="Add Lesson7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/Lesson4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson4/Lesson4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson6/Homework_3/Homework3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson6/Homework_3/Homework3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +13,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,7 +42,7 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.1874477&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson4">
+  <component name="RunManager" selected="Application.Lesson8">
     <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson4.Lesson4" />
       <module name="java_core_2" />
@@ -67,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson6.Lesson6" />
+    <configuration name="Lesson8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson8.Lesson8" />
       <module name="java_core_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson8" />
         <item itemvalue="Application.Lesson4" />
         <item itemvalue="Application.lesson6.Homework_3.Homework3" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test111" />
-        <item itemvalue="Application.Lesson6" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659288936760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Lesson7">
+      <created>1659467343939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659467343939</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +231,7 @@
     <MESSAGE value="Homework.Less.4" />
     <MESSAGE value="Лекции 5,6 + домашка №3" />
     <MESSAGE value="домашка №3 Базовая" />
-    <option name="LAST_COMMIT_MESSAGE" value="домашка №3 Базовая" />
+    <MESSAGE value="Add Lesson7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lesson7" />
   </component>
 </project>
